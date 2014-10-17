@@ -32,5 +32,6 @@ focuspoint/
 mathspamprotection/
 betternavigator/
 foundation-forms/
-
 foundationforms/
+cache/
+node_modules
