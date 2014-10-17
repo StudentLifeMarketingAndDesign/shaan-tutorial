@@ -1,0 +1,57 @@
+body{
+
+}
+.HomePage {
+	.main-nav {
+		margin-top: 2em;
+	}
+	.mission-statement{
+		border: none;
+	}
+	.mission-statement ul{
+		margin: 0;
+		li{
+			list-style-type: none;
+		}
+	}
+	.home-quicklinks .quicklinks-title span{
+		color: #ddd;
+	}
+	.coming-up{
+		background-color: #f4f4f4;
+		border-bottom: 1px solid #DDDDDD;
+		border-top: 1px solid #DDDDDD;
+	}
+}
+
+.main-nav {
+	@media #{$large-up} {
+		margin: 0.5em 0 .5em;
+	}
+	@media #{$xlarge-up} {
+
+	}
+}
+
+
+table{
+	width: 100%;
+}
+
+header, .header{
+	background: #0a759d url('../images/stripes.png');
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 1em 0;
+	@media #{$xlarge-up} {
+
+	}
+}
+
+.social-blog{
+	background: #f4f4f4;
+}
+
+.footer{
+	margin-top: 0;
+}
