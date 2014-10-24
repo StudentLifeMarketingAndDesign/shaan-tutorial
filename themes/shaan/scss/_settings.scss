@@ -33,7 +33,7 @@ $include-html-global-classes: $include-html-classes;
 // $include-html-grid-classes: $include-html-classes;
 $include-xl-html-grid-classes: true;
 
-// $row-width: rem-calc(1000);
+ $row-width: rem-calc(1000);
 // $total-columns: 12;
 
 // Global
@@ -43,7 +43,7 @@ $include-xl-html-grid-classes: true;
 // $font-weight-bold: bold !default;
 
 // We use these to control various global styles
-$body-bg: white;
+$body-bg: #000000;
 // $body-font-color: #222;
 $body-font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-weight-normal:normal;
@@ -57,10 +57,10 @@ $body-font-weight: $font-weight-normal;
 // $text-direction: ltr;
 // $opposite-direction: right;
 // $default-float: left;
-
+$mainColor: #000000;
 // We use these as default colors throughout
-$primary-color: #C83925;
-$bijoublue: #0a759d;
+$primary-color: #000000;
+$bijoublue: #000000;
 $yellow: #ffce39;
 // $secondary-color: #e7e7e7;
 // $alert-color: #f04124;
