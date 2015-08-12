@@ -13,3 +13,8 @@ require_once("conf/ConfigureFromEnv.php");
 i18n::set_locale('en_US');
 
 error_reporting(E_ALL);
+
+if(Director::isLive()) {
+	Director::forceSSL(array('/^Security/','/^admin/'));
+}
+
